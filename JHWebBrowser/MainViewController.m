@@ -44,30 +44,43 @@
     browser = [JHWebBrowser new];
     browser.url = [NSURL URLWithString:@"http://apple.com"];
     CGRect frame = self.view.bounds;
-    //frame.size.height -= 50;
+    frame.size.height -= 50;
     browser.view.frame = frame;
     [self.view addSubview:browser.view];
     
-//    UIButton *button;
-//    
-//    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-//    [button setTitle:@"Title Bar" forState:UIControlStateNormal];
-//    [button addTarget:self action:@selector(titlebar) forControlEvents:UIControlEventTouchUpInside];
-//    button.frame = CGRectMake(20, self.view.frame.size.height - 50, 80, 40);
-//    [self.view addSubview:button];
-//    
-//    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-//    [button setTitle:@"Address Bar" forState:UIControlStateNormal];
-//    [button addTarget:self action:@selector(addressbar) forControlEvents:UIControlEventTouchUpInside];
-//    button.frame = CGRectMake(110, self.view.frame.size.height - 50, 80, 40);
-//    [self.view addSubview:button];
-//    
-//    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-//    [button setTitle:@"Toolbar" forState:UIControlStateNormal];
-//    [button addTarget:self action:@selector(toolbar) forControlEvents:UIControlEventTouchUpInside];
-//    button.frame = CGRectMake(200, self.view.frame.size.height - 50, 80, 40);
-//    [self.view addSubview:button];
+    UIButton *button;
     
+    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setTitle:@"Title Bar" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(titlebar) forControlEvents:UIControlEventTouchUpInside];
+    button.frame = CGRectMake(0, self.view.frame.size.height - 50, 80, 40);
+    [self.view addSubview:button];
+    
+    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setTitle:@"Add Bar" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(addressbar) forControlEvents:UIControlEventTouchUpInside];
+    button.frame = CGRectMake(85, self.view.frame.size.height - 50, 75, 40);
+    [self.view addSubview:button];
+    
+    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setTitle:@"Toolbar" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(toolbar) forControlEvents:UIControlEventTouchUpInside];
+    button.frame = CGRectMake(165, self.view.frame.size.height - 50, 80, 40);
+    [self.view addSubview:button];
+    
+    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setTitle:@"Modal" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(showmodal) forControlEvents:UIControlEventTouchUpInside];
+    button.frame = CGRectMake(250, self.view.frame.size.height - 50, 70, 40);
+    [self.view addSubview:button];
+    
+}
+
+- (void)showmodal {
+    JHWebBrowser *modalBrowser = [JHWebBrowser new];
+    modalBrowser.showDoneButton = YES;
+    modalBrowser.url = [NSURL URLWithString:@"http://apple.com"];
+    [self presentModalViewController:modalBrowser animated:YES];
 }
 
 - (void)titlebar {

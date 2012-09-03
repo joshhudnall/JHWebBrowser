@@ -52,7 +52,7 @@
 							<object class="IBUITextField" id="696227643">
 								<reference key="NSNextResponder" ref="843925825"/>
 								<int key="NSvFlags">294</int>
-								<string key="NSFrame">{{12, 7}, {234, 31}}</string>
+								<string key="NSFrame">{{12, 7}, {297, 31}}</string>
 								<reference key="NSSuperview" ref="843925825"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="849627607"/>
@@ -97,13 +97,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBUIBarButtonItem" id="189725813">
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<float key="IBUIWidth">297</float>
 								<reference key="IBUICustomView" ref="696227643"/>
-								<reference key="IBUIToolbar" ref="843925825"/>
-							</object>
-							<object class="IBUIBarButtonItem" id="281074315">
-								<string key="IBUITitle">Close</string>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<int key="IBUIStyle">1</int>
 								<reference key="IBUIToolbar" ref="843925825"/>
 							</object>
 						</object>
@@ -310,14 +305,6 @@
 					<int key="connectionID">43</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">doneButtonPressed</string>
-						<reference key="source" ref="281074315"/>
-						<reference key="destination" ref="372490531"/>
-					</object>
-					<int key="connectionID">46</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
 						<reference key="source" ref="849627607"/>
@@ -366,7 +353,6 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="189725813"/>
-							<reference ref="281074315"/>
 						</object>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -391,11 +377,6 @@
 						<int key="objectID">23</int>
 						<reference key="object" ref="696227643"/>
 						<reference key="parent" ref="189725813"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">45</int>
-						<reference key="object" ref="281074315"/>
-						<reference key="parent" ref="843925825"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">51</int>
@@ -445,7 +426,6 @@
 					<string>27.IBPluginDependency</string>
 					<string>29.IBPluginDependency</string>
 					<string>41.IBPluginDependency</string>
-					<string>45.IBPluginDependency</string>
 					<string>51.IBPluginDependency</string>
 					<string>55.IBPluginDependency</string>
 					<string>7.IBPluginDependency</string>
@@ -455,7 +435,6 @@
 					<string>JHWebBrowser</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>UIResponder</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -489,17 +468,6 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">JHWebBrowser</string>
 					<string key="superclassName">UIViewController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">doneButtonPressed</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">doneButtonPressed</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">doneButtonPressed</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
@@ -517,7 +485,7 @@
 							<string>UIToolbar</string>
 							<string>UIActivityIndicatorView</string>
 							<string>UILabel</string>
-							<string>UIToolbar</string>
+							<string>UIView</string>
 							<string>UIToolbar</string>
 							<string>UITextField</string>
 							<string>UIWebView</string>
@@ -551,7 +519,7 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">titleToolbar</string>
-								<string key="candidateClassName">UIToolbar</string>
+								<string key="candidateClassName">UIView</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">toolbar</string>

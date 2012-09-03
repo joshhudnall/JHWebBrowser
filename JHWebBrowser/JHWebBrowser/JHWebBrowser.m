@@ -299,7 +299,7 @@
                     nil];
     
 	if (showDoneButton) {
-        [toolBarItems addObject:vSpace];
+        [toolBarItems addObject:fSpace];
         [toolBarItems addObject:_doneButton];
     }
 	

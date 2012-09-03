@@ -20,7 +20,6 @@
 		7286F4E215F3FD8B0089327F /* JHWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4DC15F3FD8B0089327F /* JHWebBrowser.m */; };
 		7286F4E315F3FD8B0089327F /* JHWebBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */; };
 		7286F4E615F4094D0089327F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4E515F4094C0089327F /* MainViewController.m */; };
-		7286F4E815F43DE10089327F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4E715F43DE10089327F /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 		7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHWebBrowser.xib; sourceTree = "<group>"; };
 		7286F4E415F4094C0089327F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		7286F4E515F4094C0089327F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		7286F4E715F43DE10089327F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +116,6 @@
 				7286F4DB15F3FD8B0089327F /* JHWebBrowser.h */,
 				7286F4DC15F3FD8B0089327F /* JHWebBrowser.m */,
 				7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */,
-				7286F4E715F43DE10089327F /* LICENSE.txt */,
 			);
 			path = JHWebBrowser;
 			sourceTree = "<group>";
@@ -191,7 +188,6 @@
 				7286F4E015F3FD8B0089327F /* forwardIcon.png in Resources */,
 				7286F4E115F3FD8B0089327F /* forwardIcon@2x.png in Resources */,
 				7286F4E315F3FD8B0089327F /* JHWebBrowser.xib in Resources */,
-				7286F4E815F43DE10089327F /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +311,7 @@
 				7286F4C515F3FD4C0089327F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
