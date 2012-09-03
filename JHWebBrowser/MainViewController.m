@@ -41,32 +41,32 @@
 {
     [super viewDidLoad];
 	
-    JHWebBrowser *browser = [JHWebBrowser new];
+    browser = [JHWebBrowser new];
     browser.url = [NSURL URLWithString:@"http://apple.com"];
     CGRect frame = self.view.bounds;
-    frame.size.height -= 50;
+    //frame.size.height -= 50;
     browser.view.frame = frame;
     [self.view addSubview:browser.view];
     
-    UIButton *button;
-    
-    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button setTitle:@"Title Bar" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(titlebar) forControlEvents:UIControlEventTouchUpInside];
-    button.frame = CGRectMake(20, self.view.frame.size.height - 50, 80, 40);
-    [self.view addSubview:button];
-    
-    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button setTitle:@"Address Bar" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(addressbar) forControlEvents:UIControlEventTouchUpInside];
-    button.frame = CGRectMake(110, self.view.frame.size.height - 50, 80, 40);
-    [self.view addSubview:button];
-    
-    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button setTitle:@"Toolbar" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(toolbar) forControlEvents:UIControlEventTouchUpInside];
-    button.frame = CGRectMake(200, self.view.frame.size.height - 50, 80, 40);
-    [self.view addSubview:button];
+//    UIButton *button;
+//    
+//    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    [button setTitle:@"Title Bar" forState:UIControlStateNormal];
+//    [button addTarget:self action:@selector(titlebar) forControlEvents:UIControlEventTouchUpInside];
+//    button.frame = CGRectMake(20, self.view.frame.size.height - 50, 80, 40);
+//    [self.view addSubview:button];
+//    
+//    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    [button setTitle:@"Address Bar" forState:UIControlStateNormal];
+//    [button addTarget:self action:@selector(addressbar) forControlEvents:UIControlEventTouchUpInside];
+//    button.frame = CGRectMake(110, self.view.frame.size.height - 50, 80, 40);
+//    [self.view addSubview:button];
+//    
+//    button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    [button setTitle:@"Toolbar" forState:UIControlStateNormal];
+//    [button addTarget:self action:@selector(toolbar) forControlEvents:UIControlEventTouchUpInside];
+//    button.frame = CGRectMake(200, self.view.frame.size.height - 50, 80, 40);
+//    [self.view addSubview:button];
     
 }
 
