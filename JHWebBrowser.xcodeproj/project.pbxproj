@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7286F4A715F3FD4B0089327F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4A615F3FD4B0089327F /* UIKit.framework */; };
+		7286F4A915F3FD4B0089327F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4A815F3FD4B0089327F /* Foundation.framework */; };
+		7286F4AB15F3FD4B0089327F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7286F4AA15F3FD4B0089327F /* CoreGraphics.framework */; };
+		7286F4B115F3FD4B0089327F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4AF15F3FD4B0089327F /* InfoPlist.strings */; };
+		7286F4B315F3FD4B0089327F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4B215F3FD4B0089327F /* main.m */; };
+		7286F4B715F3FD4C0089327F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4B615F3FD4C0089327F /* AppDelegate.m */; };
+		7286F4DE15F3FD8B0089327F /* backIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4D715F3FD8B0089327F /* backIcon.png */; };
+		7286F4DF15F3FD8B0089327F /* backIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4D815F3FD8B0089327F /* backIcon@2x.png */; };
+		7286F4E015F3FD8B0089327F /* forwardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4D915F3FD8B0089327F /* forwardIcon.png */; };
+		7286F4E115F3FD8B0089327F /* forwardIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4DA15F3FD8B0089327F /* forwardIcon@2x.png */; };
+		7286F4E215F3FD8B0089327F /* JHWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4DC15F3FD8B0089327F /* JHWebBrowser.m */; };
+		7286F4E315F3FD8B0089327F /* JHWebBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */; };
+		7286F4E615F4094D0089327F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7286F4E515F4094C0089327F /* MainViewController.m */; };
+		7286F4E815F43DE10089327F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7286F4E715F43DE10089327F /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7286F4A215F3FD4B0089327F /* JHWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7286F4A615F3FD4B0089327F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7286F4A815F3FD4B0089327F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7286F4AA15F3FD4B0089327F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7286F4AE15F3FD4B0089327F /* JHWebBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JHWebBrowser-Info.plist"; sourceTree = "<group>"; };
+		7286F4B015F3FD4B0089327F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7286F4B215F3FD4B0089327F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7286F4B415F3FD4B0089327F /* JHWebBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JHWebBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		7286F4B515F3FD4C0089327F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7286F4B615F3FD4C0089327F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7286F4D715F3FD8B0089327F /* backIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backIcon.png; sourceTree = "<group>"; };
+		7286F4D815F3FD8B0089327F /* backIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backIcon@2x.png"; sourceTree = "<group>"; };
+		7286F4D915F3FD8B0089327F /* forwardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardIcon.png; sourceTree = "<group>"; };
+		7286F4DA15F3FD8B0089327F /* forwardIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forwardIcon@2x.png"; sourceTree = "<group>"; };
+		7286F4DB15F3FD8B0089327F /* JHWebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWebBrowser.h; sourceTree = "<group>"; };
+		7286F4DC15F3FD8B0089327F /* JHWebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWebBrowser.m; sourceTree = "<group>"; };
+		7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHWebBrowser.xib; sourceTree = "<group>"; };
+		7286F4E415F4094C0089327F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7286F4E515F4094C0089327F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7286F4E715F43DE10089327F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7286F49F15F3FD4B0089327F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7286F4A715F3FD4B0089327F /* UIKit.framework in Frameworks */,
+				7286F4A915F3FD4B0089327F /* Foundation.framework in Frameworks */,
+				7286F4AB15F3FD4B0089327F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7286F49715F3FD4B0089327F = {
+			isa = PBXGroup;
+			children = (
+				7286F4AC15F3FD4B0089327F /* JHWebBrowser */,
+				7286F4A515F3FD4B0089327F /* Frameworks */,
+				7286F4A315F3FD4B0089327F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7286F4A315F3FD4B0089327F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4A215F3FD4B0089327F /* JHWebBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7286F4A515F3FD4B0089327F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4A615F3FD4B0089327F /* UIKit.framework */,
+				7286F4A815F3FD4B0089327F /* Foundation.framework */,
+				7286F4AA15F3FD4B0089327F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7286F4AC15F3FD4B0089327F /* JHWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4B515F3FD4C0089327F /* AppDelegate.h */,
+				7286F4B615F3FD4C0089327F /* AppDelegate.m */,
+				7286F4E415F4094C0089327F /* MainViewController.h */,
+				7286F4E515F4094C0089327F /* MainViewController.m */,
+				7286F4D515F3FD8B0089327F /* JHWebBrowser */,
+				7286F4AD15F3FD4B0089327F /* Supporting Files */,
+			);
+			path = JHWebBrowser;
+			sourceTree = "<group>";
+		};
+		7286F4AD15F3FD4B0089327F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4AE15F3FD4B0089327F /* JHWebBrowser-Info.plist */,
+				7286F4AF15F3FD4B0089327F /* InfoPlist.strings */,
+				7286F4B215F3FD4B0089327F /* main.m */,
+				7286F4B415F3FD4B0089327F /* JHWebBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7286F4D515F3FD8B0089327F /* JHWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4D615F3FD8B0089327F /* Images */,
+				7286F4DB15F3FD8B0089327F /* JHWebBrowser.h */,
+				7286F4DC15F3FD8B0089327F /* JHWebBrowser.m */,
+				7286F4DD15F3FD8B0089327F /* JHWebBrowser.xib */,
+				7286F4E715F43DE10089327F /* LICENSE.txt */,
+			);
+			path = JHWebBrowser;
+			sourceTree = "<group>";
+		};
+		7286F4D615F3FD8B0089327F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7286F4D715F3FD8B0089327F /* backIcon.png */,
+				7286F4D815F3FD8B0089327F /* backIcon@2x.png */,
+				7286F4D915F3FD8B0089327F /* forwardIcon.png */,
+				7286F4DA15F3FD8B0089327F /* forwardIcon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7286F4A115F3FD4B0089327F /* JHWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7286F4C315F3FD4C0089327F /* Build configuration list for PBXNativeTarget "JHWebBrowser" */;
+			buildPhases = (
+				7286F49E15F3FD4B0089327F /* Sources */,
+				7286F49F15F3FD4B0089327F /* Frameworks */,
+				7286F4A015F3FD4B0089327F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHWebBrowser;
+			productName = JHWebBrowser;
+			productReference = 7286F4A215F3FD4B0089327F /* JHWebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7286F49915F3FD4B0089327F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Josh Hudnall";
+			};
+			buildConfigurationList = 7286F49C15F3FD4B0089327F /* Build configuration list for PBXProject "JHWebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7286F49715F3FD4B0089327F;
+			productRefGroup = 7286F4A315F3FD4B0089327F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7286F4A115F3FD4B0089327F /* JHWebBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7286F4A015F3FD4B0089327F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7286F4B115F3FD4B0089327F /* InfoPlist.strings in Resources */,
+				7286F4DE15F3FD8B0089327F /* backIcon.png in Resources */,
+				7286F4DF15F3FD8B0089327F /* backIcon@2x.png in Resources */,
+				7286F4E015F3FD8B0089327F /* forwardIcon.png in Resources */,
+				7286F4E115F3FD8B0089327F /* forwardIcon@2x.png in Resources */,
+				7286F4E315F3FD8B0089327F /* JHWebBrowser.xib in Resources */,
+				7286F4E815F43DE10089327F /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7286F49E15F3FD4B0089327F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7286F4B315F3FD4B0089327F /* main.m in Sources */,
+				7286F4B715F3FD4C0089327F /* AppDelegate.m in Sources */,
+				7286F4E215F3FD8B0089327F /* JHWebBrowser.m in Sources */,
+				7286F4E615F4094D0089327F /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7286F4AF15F3FD4B0089327F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7286F4B015F3FD4B0089327F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7286F4C115F3FD4C0089327F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7286F4C215F3FD4C0089327F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7286F4C415F3FD4C0089327F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JHWebBrowser/JHWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "JHWebBrowser/JHWebBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7286F4C515F3FD4C0089327F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JHWebBrowser/JHWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "JHWebBrowser/JHWebBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7286F49C15F3FD4B0089327F /* Build configuration list for PBXProject "JHWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7286F4C115F3FD4C0089327F /* Debug */,
+				7286F4C215F3FD4C0089327F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7286F4C315F3FD4C0089327F /* Build configuration list for PBXNativeTarget "JHWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7286F4C415F3FD4C0089327F /* Debug */,
+				7286F4C515F3FD4C0089327F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7286F49915F3FD4B0089327F /* Project object */;
+}
