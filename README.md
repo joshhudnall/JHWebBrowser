@@ -1,6 +1,8 @@
 JHWebBrowser
 -------
 
+NOTE: There are better alternatives available now, try https://github.com/TimOliver/TOWebViewController or https://github.com/samvermette/SVWebViewController.
+
 http://joshhudnall.com
 
 A simple web browser with a few customization options. There's no documentation at this point, but the gist is pretty simple. There's plenty that could be done to make it better, but it's functional. Requires ARC.
