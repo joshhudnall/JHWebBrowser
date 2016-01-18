@@ -20,4 +20,6 @@ You can show/remove toolbars with the following
 
 Cheers.
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 License: http://www.apache.org/licenses/LICENSE-2.0.html
